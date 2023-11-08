@@ -18,6 +18,7 @@ Calculer un nouveau prix avec la TVA
   - `git clone https://github.com/VannaEPSI/poec-tp-docker-vannaly.git`
 
 ## How to use
+Dans le terminal
 - Lancer un docker build du projet
   - `docker build -t tp-docker .`
 - Tester les différents prix et les différents pourcentages en modifiant A et B
@@ -34,7 +35,7 @@ Calculer un nouveau prix avec la TVA
 Dans le terminal
 - Accéder au dossier du projet
 - Lancer un docker build
-  - `docker build -t tp-docker .`
+  - `docker build -t tp-docker .` (si le build n'a pas été lancé avant)
 - Lancer le fichier test_calc.py pour lancer les tests
   - `docker run -it tp-docker python src/test_calc.py`
 
