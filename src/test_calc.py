@@ -26,7 +26,7 @@ class TestCalcMethods(unittest.TestCase):
     def test_price_negative_case(self):
         print('Début du test prix négatif')
         new_price = apply_percent(-10.99, 10)
-        self.assertEqual(new_price, "Price ($-10.99) is negative")
+        self.assertEqual(new_price, 'Price ($-10.99) is negative')
         print('Fin du test')
 
     def test_wrong_value_case(self):
