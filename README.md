@@ -4,9 +4,11 @@
 Calculer un nouveau prix avec la TVA
 
 ## Technical info / folder architecture
-- infra : every files linked to deployment in test/production (devops only.)
-- src : source code
-- ...
+- src :
+  - calc.py
+  - main.py
+  - test_calc.py
+- Dockerfile
 
 ## Prerequisites
 - Docker
